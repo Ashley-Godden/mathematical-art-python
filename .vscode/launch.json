@@ -1,0 +1,80 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Tree L-System",
+            "type": "python",
+            "request": "launch",
+            "program": "pygame_art.py",
+            "args": ["tree.txt", "800", "800", "300", "800", "90", "230", "0.5", "1", "5"],
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "Koch Curve L-System",
+            "type": "python",
+            "request": "launch",
+            "program": "pygame_art.py",
+            "args": ["koch_curve.txt", "800", "800", "800", "700", "0", "310", "0.4", "1", "6"],
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "Sierpinski Triangle L-System",
+            "type": "python",
+            "request": "launch",
+            "program": "pygame_art.py",
+            "args": ["sierpinski_triangle.txt", "1100", "1000", "10", "990", "180", "1080", "0.5", "1", "10"],
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "Dragon Curve L-System",
+            "type": "python",
+            "request": "launch",
+            "program": "pygame_art.py",
+            "args": ["dragon_curve.txt", "1000", "1000", "300", "600", "0", "10", "1", "1", "14"],
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "Fractal Plant L-System",
+            "type": "python",
+            "request": "launch",
+            "program": "pygame_art.py",
+            "args": ["fractal_plant.txt", "1000", "1000", "100", "900", "135", "32", "0.7", "1", "8"],
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "Snowflake L-System",
+            "type": "python",
+            "request": "launch",
+            "program": "pygame_art.py",
+            "args": ["snowflake.txt", "1000", "1000", "800", "900", "0", "300", "0.45", "1", "5"],
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "Vines L-System",
+            "type": "python",
+            "request": "launch",
+            "program": "pygame_art.py",
+            "args": ["vines.txt", "1000", "1000", "500", "950", "90", "110", "0.5", "1", "6"],
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "Test L-System",
+            "type": "python",
+            "request": "launch",
+            "program": "pygame_art.py",
+            "args": ["test.txt", "1000", "1000", "350", "900", "90", "50", "1", "1", "13"],
+            "console": "integratedTerminal",
+            "justMyCode": true
+        }
+    ]
+}
